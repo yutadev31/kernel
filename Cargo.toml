@@ -1,5 +1,6 @@
 [workspace]
 members = ["crates/bootloader"]
+resolver = "2"
 
 [workspace.dependencies]
 log = "0.4.22"
