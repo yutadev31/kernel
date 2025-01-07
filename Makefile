@@ -1,5 +1,5 @@
 build:
-	cargo build
+	cargo build --bin bootloader
 
 run: build
 	./scripts/make-qemu-disk.sh
