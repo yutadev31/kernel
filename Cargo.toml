@@ -1,5 +1,5 @@
 [workspace]
-members = ["crates/bootloader"]
+members = ["crates/bootloader", "crates/kernel-main"]
 resolver = "2"
 
 [workspace.dependencies]
