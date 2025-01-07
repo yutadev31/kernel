@@ -7,7 +7,7 @@ use uefi::prelude::*;
 #[entry]
 fn main() -> Status {
     uefi::helpers::init().unwrap();
-    info!("Hello, world!");
+    info!("Hello, world!!");
     boot::stall(10_000_000);
     Status::SUCCESS
 }

@@ -1,8 +1,6 @@
-[package]
-name = "kernel"
-version = "0.1.0"
-edition = "2021"
+[workspace]
+members = ["crates/bootloader"]
 
-[dependencies]
+[workspace.dependencies]
 log = "0.4.22"
 uefi = { version = "0.33.0", features = ["logger", "panic_handler", "qemu"] }
